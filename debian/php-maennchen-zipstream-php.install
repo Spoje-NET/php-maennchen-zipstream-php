@@ -1,0 +1,2 @@
+src/*               usr/share/php/ZipStream/
+debian/autoload.php usr/share/php/ZipStream/
