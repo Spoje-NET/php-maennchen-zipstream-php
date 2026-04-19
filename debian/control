@@ -1,0 +1,16 @@
+Source: php-maennchen-zipstream-php
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <vitezslav.dvorak@spojenet.cz>
+Build-Depends: debhelper-compat (= 13), pkg-php-tools
+Standards-Version: 4.6.2
+Homepage: https://github.com/maennchen/ZipStream-PHP
+Vcs-Git: https://github.com/Spoje-NET/php-maennchen-zipstream-php.git
+Vcs-Browser: https://github.com/Spoje-NET/php-maennchen-zipstream-php
+
+Package: php-maennchen-zipstream-php
+Architecture: all
+Depends: ${misc:Depends}, ${phpcomposer:Depends}, php-mbstring
+Description: Library for dynamically streaming zip files from PHP
+ ZipStream streams ZIP files without writing to disk. Files can be added
+ from strings, files or streams while generating a ZIP archive on-the-fly.

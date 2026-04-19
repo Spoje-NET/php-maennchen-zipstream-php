@@ -1,0 +1,7 @@
+phpcomposer:name=maennchen/zipstream-php
+phpcomposer:description=ZipStream is a library for dynamically streaming dynamic zip files from PHP${Newline}without writing to the disk at all on the server
+phpcomposer:Debian-require=php-common, php-php-64bit (>= 8.3), php-php-64bit (<< 9~~), php-mbstring
+phpcomposer:Debian-require-dev=phpunit (>= 12.0), phpunit (<< 13~~), php-guzzlehttp-guzzle (>= 7.5), php-guzzlehttp-guzzle (<< 8~~), php-zip, php-mikey179-vfsstream (>= 1.6), php-mikey179-vfsstream (<< 2~~), php-php-coveralls (>= 2.5), php-php-coveralls (<< 3~~), php-friendsofphp-php-cs-fixer (>= 3.86), php-friendsofphp-php-cs-fixer (<< 4~~), php-vimeo-psalm (>= 6.0), php-vimeo-psalm (<< 7~~), php-brianium-paratest (>= 7.7), php-brianium-paratest (<< 8~~)
+phpcomposer:Debian-suggest=php-psr-http-message (>= 2.0), php-psr-http-message (<< 3~~), php-guzzlehttp-psr7 (>= 2.4), php-guzzlehttp-psr7 (<< 3~~)
+misc:Depends=
+misc:Pre-Depends=
